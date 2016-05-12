@@ -1,0 +1,9 @@
+c:\users\63530\documents\visual studio 2013\Projects\TestProjectsWord\TestProjectsWord\bin\Debug\TestProjectsWord.exe.config
+c:\users\63530\documents\visual studio 2013\Projects\TestProjectsWord\TestProjectsWord\bin\Debug\TestProjectsWord.exe
+c:\users\63530\documents\visual studio 2013\Projects\TestProjectsWord\TestProjectsWord\bin\Debug\TestProjectsWord.pdb
+c:\users\63530\documents\visual studio 2013\Projects\TestProjectsWord\TestProjectsWord\obj\Debug\TestProjectsWord.csprojResolveAssemblyReference.cache
+c:\users\63530\documents\visual studio 2013\Projects\TestProjectsWord\TestProjectsWord\obj\Debug\TestProjectsWord.CustomerInformation.resources
+c:\users\63530\documents\visual studio 2013\Projects\TestProjectsWord\TestProjectsWord\obj\Debug\TestProjectsWord.Properties.Resources.resources
+c:\users\63530\documents\visual studio 2013\Projects\TestProjectsWord\TestProjectsWord\obj\Debug\TestProjectsWord.csproj.GenerateResource.Cache
+c:\users\63530\documents\visual studio 2013\Projects\TestProjectsWord\TestProjectsWord\obj\Debug\TestProjectsWord.exe
+c:\users\63530\documents\visual studio 2013\Projects\TestProjectsWord\TestProjectsWord\obj\Debug\TestProjectsWord.pdb
