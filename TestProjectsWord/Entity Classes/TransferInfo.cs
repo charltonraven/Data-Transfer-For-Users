@@ -14,23 +14,18 @@ namespace TestProjectsWord
         public String PhoneNumber;
         public String OldComputer;
         public String CopsID;
+        public String VPN;
         
 
-       public TransferInfo(String EmployeeID, String FirstName,String LastName, String PhoneNumber,String OldComputer,String CopsID){
-            this.EmployeeID=EmployeeID;
-            this.FirstName=FirstName;
-            this.LastName=LastName;
-            this.PhoneNumber=PhoneNumber;
-            this.OldComputer=OldComputer;
-            this.CopsID = CopsID;
-        }
-       public TransferInfo(String EmployeeID, String FirstName, String LastName, String PhoneNumber, String OldComputer)
+       
+       public TransferInfo(String EmployeeID, String FirstName, String LastName, String PhoneNumber, String OldComputer, String VPN)
        {
            this.EmployeeID = EmployeeID;
            this.FirstName = FirstName;
            this.LastName = LastName;
            this.PhoneNumber = PhoneNumber;
            this.OldComputer = OldComputer;
+           this.VPN = VPN;
            
        }
 

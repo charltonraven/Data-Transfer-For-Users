@@ -19,12 +19,13 @@ namespace TestProjectsWord
 
         public void Add(TransferInfo T)
         {
+            
             String ComputerName = System.Environment.MachineName;
             DateTime date = DateTime.Today;
             String CurrentDate = date.ToString("yyyy-MM-dd");
             conn.Open();
 
-            String InsertDT = "INSERT INTO transferinformation VALUES ('"+T.EmployeeID+"','"+T.FirstName+"','"+T.LastName+"','"+T.PhoneNumber+"','"+T.OldComputer+"','"+ComputerName+"','"+CurrentDate+"',NULL,NULL);";
+            String InsertDT = "INSERT INTO transferinformation VALUES ('" + T.EmployeeID + "','" + T.FirstName + "','" + T.LastName + "','" + T.PhoneNumber + "','" + T.OldComputer + "','" + ComputerName + "','" + T.VPN + "','" + CurrentDate + "',NULL,NULL);";
             MySqlCommand InsertSQL = new MySqlCommand(InsertDT, conn);
             InsertSQL.ExecuteNonQuery();
         }

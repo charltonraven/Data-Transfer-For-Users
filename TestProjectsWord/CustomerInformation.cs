@@ -23,7 +23,7 @@ namespace TestProjectsWord
             //Ensure a connection before the summit button can go through
             if (hasInternetConnection() == true)
             {
-                TransferInfo AddDataTransfer = new TransferInfo(txtNTName.Text, txtFirstName.Text, txtLastName.Text, txtPhone.Text, txtOldName.Text);
+                TransferInfo AddDataTransfer = new TransferInfo(txtNTName.Text, txtFirstName.Text, txtLastName.Text, txtPhone.Text, txtOldName.Text,cbVPN.Text);
                 DatabaseAccess AddDT = new DatabaseAccess();
                 AddDT.Add(AddDataTransfer);
                 System.IO.File.WriteAllText(@"C:\cops\Number.txt", "Someone should be remoting in on your new PC in the next hour or less. If you do not see anyone on your new PC, Please give us a call at 843-383-7050. Thanks ");
@@ -36,7 +36,7 @@ namespace TestProjectsWord
             }
 
         }
-        //Chekcs for Internet Connection by ping a website(sonoco.com)...http://www.sonco.com would not work.
+        //Chekcs for Internet Connection by ping a website(sonoco.com)...http://www.sonoco.com would not work.
         public bool hasInternetConnection()
         {
             string host = "sonoco.com";
@@ -50,6 +50,17 @@ namespace TestProjectsWord
             }
             catch { }
             return result;
+        }
+
+        private void libHelp_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            
+            MessageBox.Show("Please call give us a call at 843-383-7050. ");
+        }
+
+        private void CustomerInformation_Load(object sender, EventArgs e)
+        {
+            cbVPN.SelectedItem = "No";
         }
     }
 }
